@@ -30,13 +30,14 @@ def dnfresolver():
 
 def get_ip_servername():
     IP = socket.gethostbyname(url)
+    print("IP  Is:",IP )
     try:
         addr = socket.gethostbyaddr(IP)
         print("Addr  Is:",addr ) 
     except Exception as e:
         print(str(e))
     
-    print("IP  Is:",IP )
+    
 
 
 #regional details
