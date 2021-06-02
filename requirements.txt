@@ -15,5 +15,5 @@ socket.py==0.1.0
 sockets==1.0.0
 soupsieve==1.9.5
 tldextract==2.2.2
-urllib3==1.25.7
+urllib3==1.26.5
 wincertstore==0.2
